@@ -24,18 +24,8 @@
   </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\spr_main</sprite>
-    <sprite>sprites\spr_cinzenta</sprite>
-    <sprite>sprites\spr_vermelha</sprite>
-    <sprite>sprites\spr_artico</sprite>
-    <sprite>sprites\spr_estepes</sprite>
-    <sprite>sprites\spr_colorada</sprite>
-    <sprite>sprites\spr_feneco</sprite>
-  </sprites>
-  <backgrounds name="background">
-    <background>background\bg_mercy</background>
-  </backgrounds>
+  <sprites name="sprites"/>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Kit">
@@ -125,10 +115,6 @@
       </scripts>
       <scripts name="Misc">
         <script>scripts\kit_debug_msg.gml</script>
-        <script>scripts\show_test.gml</script>
-        <script>scripts\moveme.gml</script>
-        <script>scripts\change_bg.gml</script>
-        <script>scripts\hello.gml</script>
         <script>scripts\kit_script_execute_array.gml</script>
       </scripts>
       <scripts name="Error">
@@ -136,8 +122,6 @@
         <script>scripts\kit_error_get.gml</script>
         <script>scripts\kit_error_init.gml</script>
       </scripts>
-      <script>scripts\kit_demo.gml</script>
-      <script>scripts\kit_demo_set_image.gml</script>
       <script>scripts\kit_init.gml</script>
       <script>scripts\kit_update_mouse_pos.gml</script>
       <script>scripts\kit_font_set.gml</script>
@@ -158,9 +142,7 @@
     <object>objects\obj_kit_checkbox</object>
     <object>objects\obj_kit_imageviewer</object>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_form</room>
-  </rooms>
+  <rooms name="rooms"/>
   <constants number="11">
     <constant name="ck_green">make_color_rgb(46, 204, 113)</constant>
     <constant name="ck_red">make_color_rgb(231, 76, 60)</constant>
