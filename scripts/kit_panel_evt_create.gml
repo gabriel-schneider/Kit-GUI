@@ -1,0 +1,11 @@
+header_show = false
+header_text = ''
+header_text_align = 1
+header_text_color = c_white
+header_bg_color = ck_green
+header_height = 32
+drag_enabled = true
+drag_state = false
+drag_offx = 0
+drag_offy = 0
+bg_color = c_white

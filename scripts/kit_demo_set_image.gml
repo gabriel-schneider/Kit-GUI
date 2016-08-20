@@ -1,0 +1,1 @@
+kit_imageviewer_set_image(argument0, kit_listbox_current_value(argument1), asset_sprite)
